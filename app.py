@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Application is running successfully!"
+    return 10/0
 
 if __name__ == "__main__":
     app.run()
